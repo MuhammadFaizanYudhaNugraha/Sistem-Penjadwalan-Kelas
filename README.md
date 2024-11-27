@@ -12,7 +12,7 @@ Sistem Penjadwalan Kelas adalah program yang dirancang untuk membantu  dalam men
 - Sitem dapat menambah dan menampilkan jadwal pada kelas yang ditambahkan
 
 ## Cara Kerja:
-1. Star untuk memulai program
+1. Start untuk memulai program
 2. Muncul 5 Menu
 3. Klik Tambah Kelas untuk menambah daftar kelas
 4. Klik Tambah Jadwal Kelas untuk menambah jadwal pada kelas yang tersedia
