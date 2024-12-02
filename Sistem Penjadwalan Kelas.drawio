@@ -1,0 +1,190 @@
+<mxfile host="65bd71144e">
+    <diagram name="Halaman-1" id="ZzuOgXy86mY6U-GXPdbu">
+        <mxGraphModel dx="1320" dy="1688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="95" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="djej7wyHmqCi-qK7CBhM-3" target="87">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="djej7wyHmqCi-qK7CBhM-3" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-802" y="-1169" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.454;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=6;" edge="1" parent="1" source="87" target="89">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;&amp;nbsp;Inisiasi CSV&lt;br&gt;(Buat file CSV jika belum)&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-812" y="-1109" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" style="edgeStyle=none;html=1;fontSize=5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.456;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="89" target="104">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=5;" edge="1" parent="1" source="103" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=5;" edge="1" parent="1" source="103" target="117">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="3. Tambahkan Kelas" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-793.5" y="-799" width="63" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=5;" edge="1" parent="1" source="104" target="105">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="104" target="176">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="1. Tampilkan Kelas" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-793.5" y="-959" width="63" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=5;" edge="1" parent="1" source="105" target="103">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="105" target="177">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="2. Tampilkan Jadwal Kelas" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-793.5" y="-879" width="63" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=5;" edge="1" parent="1" source="106" target="107">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=5;" edge="1" parent="1" source="106" target="135">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="4. Tambah Jadwal Kelas" style="rhombus;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-794" y="-719" width="63" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="107" target="166">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="5. Keluar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-787.5" y="-634.5" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-709" y="-789" width="142" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=6;align=left;" vertex="1" parent="129">
+                    <mxGeometry x="22" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="&lt;div style=&quot;text-align: center; line-height: 70%;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Input&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;ol style=&quot;text-align: left; line-height: 70%;&quot;&gt;&lt;li&gt;&amp;nbsp;Masukkan nama kelas&lt;/li&gt;&lt;li&gt;Masukkan lokasi gedung kelas&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="129">
+                    <mxGeometry y="10" width="132" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-827" y="-1049" width="130" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=6;" vertex="1" parent="130">
+                    <mxGeometry x="11" width="119" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="&lt;div style=&quot;text-align: center; line-height: 60%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Output&lt;/span&gt;&lt;/div&gt;&lt;ol style=&quot;line-height: 60%;&quot;&gt;&lt;li&gt;Tampilkan Kelas&lt;/li&gt;&lt;li&gt;Tampilkan Jadwal Kelas&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Tambahkan&amp;nbsp; Kelas&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Tambah Jadwal Kelas&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Keluar&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="130">
+                    <mxGeometry y="20" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-539" y="-819" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=5;" vertex="1" parent="152">
+                    <mxGeometry width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Save File:&lt;br&gt;&lt;b&gt;data_kelas.csv&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="152">
+                    <mxGeometry y="35" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="117" target="151">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;" edge="1" parent="1" source="151" target="147">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-539" y="-730" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=5;" vertex="1" parent="156">
+                    <mxGeometry width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Save File:&lt;br&gt;&lt;b&gt;jadwal_kelas.csv&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="156">
+                    <mxGeometry y="35" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="135" target="158">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=6;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="-697" y="-729" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="&lt;div style=&quot;text-align: center; line-height: 80%;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Input&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;ol style=&quot;text-align: left; line-height: 80%;&quot;&gt;&lt;li&gt;&amp;nbsp;Masukkan Mata Kuliah&lt;/li&gt;&lt;li&gt;Masukkan Nama Dosen&lt;/li&gt;&lt;li&gt;Pilih Kelas yang Tersedia&lt;/li&gt;&lt;li&gt;Pilih Hari&lt;/li&gt;&lt;li&gt;Masukkan Waktu&lt;/li&gt;&lt;li&gt;Masukkan Tanggal&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-712" y="-711.5" width="132" height="52.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=6;" edge="1" parent="1" source="158" target="143">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-802.5" y="-560" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="Kembali ke Menu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-310" y="-791" width="50" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="Kembali ke Menu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-310" y="-711" width="50" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="143" target="171">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-453.5" y="-709" width="119" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Output&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Jadwal berhasil ditambahkan!&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-459" y="-704" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="147" target="170">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-453.5" y="-789" width="119" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Output&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kelas berhasil ditambahkan!&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-459" y="-784" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;" edge="1" parent="1" source="176" target="180">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="Tampilkan&amp;nbsp; File:&lt;br&gt;data_kelas.csv" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-709" y="-951" width="50" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=6;" edge="1" parent="1" source="177" target="182">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="Tampilkan&amp;nbsp; File:&lt;br&gt;jadwal_kelas.csv" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-709" y="-871" width="50" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-627" y="-979" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=5;" vertex="1" parent="178">
+                    <mxGeometry width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;b&gt;data_kelas.csv&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="178">
+                    <mxGeometry y="35" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-627" y="-889" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="182" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=5;" vertex="1" parent="181">
+                    <mxGeometry width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;&lt;b&gt;jadwal_kelas.csv&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="181">
+                    <mxGeometry y="35" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="Kembali ke Menu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-539" y="-951" width="50" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="Kembali ke Menu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="-539" y="-871" width="50" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=6;" edge="1" parent="1" source="183" target="194">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="180" target="192">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
