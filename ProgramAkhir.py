@@ -1,9 +1,10 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
+from tkcalendar import Calendar
 import csv
 import os
+import datetime
 
-#coba push
 # Nama file CSV
 FILENAME_KELAS = "data_kelas.csv"
 FILENAME_JADWAL = "jadwal_kelas.csv"
@@ -106,10 +107,11 @@ def tambah_jadwal_kelas():
         dosen = entry_dosen.get()
         kelas = combo_kelas.get()
         hari = combo_hari.get()
-        waktu = entry_waktu.get()
+        waktu_mulai = f"{spinbox_jam_mulai.get()}:{spinbox_menit_mulai.get()}"
+        waktu_selesai = f"{spinbox_jam_selesai.get()}:{spinbox_menit_selesai.get()}"
         tanggal = entry_tanggal.get()
 
-        if not all([mata_kuliah, dosen, kelas, hari, waktu, tanggal]):
+        if not all([mata_kuliah, dosen, kelas, hari, waktu_mulai, waktu_selesai, tanggal]):
             messagebox.showerror("Kesalahan", "Semua field harus diisi!")
             return
 
@@ -118,7 +120,7 @@ def tambah_jadwal_kelas():
             "Dosen": dosen,
             "Kelas": kelas,
             "Hari": hari,
-            "Waktu": waktu,
+            "Waktu": f"{waktu_mulai}-{waktu_selesai}",
             "Tanggal": tanggal,
         }
 
@@ -134,8 +136,37 @@ def tambah_jadwal_kelas():
         entry_dosen.delete(0, tk.END)
         combo_kelas.set("")
         combo_hari.set("")
-        entry_waktu.delete(0, tk.END)
+        spinbox_jam_mulai.delete(0, tk.END)
+        spinbox_menit_mulai.delete(0, tk.END)
+        spinbox_jam_selesai.delete(0, tk.END)
+        spinbox_menit_selesai.delete(0, tk.END)
         entry_tanggal.delete(0, tk.END)
+
+    def pilih_tanggal():
+        def pilih():
+            selected_date = cal.selection_get()
+            entry_tanggal.delete(0, tk.END)
+            entry_tanggal.insert(0, selected_date.strftime('%d-%m-%Y'))
+
+            # Tentukan hari dalam minggu
+            hari = selected_date.strftime('%A')
+            hari_id = {
+                'Monday': 'Senin',
+                'Tuesday': 'Selasa',
+                'Wednesday': 'Rabu',
+                'Thursday': 'Kamis',
+                'Friday': 'Jumat',
+                'Saturday': 'Sabtu',
+                'Sunday': 'Minggu'
+            }
+            combo_hari.set(hari_id[hari])
+            top.destroy()
+
+        top = tk.Toplevel(root)
+        cal = Calendar(top, selectmode='day', date_pattern='dd-mm-yyyy')
+        cal.pack(pady=20)
+
+        tk.Button(top, text="Pilih", command=pilih).pack()
 
     for widget in root.winfo_children():
         widget.destroy()
@@ -161,13 +192,23 @@ def tambah_jadwal_kelas():
     combo_hari = ttk.Combobox(frame_input, values=["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"])
     combo_hari.grid(row=3, column=1, padx=5, pady=5)
 
-    tk.Label(frame_input, text="Waktu(HH.MM-HH.MM):").grid(row=4, column=0, padx=5, pady=5)
-    entry_waktu = tk.Entry(frame_input)
-    entry_waktu.grid(row=4, column=1, padx=5, pady=5)
-    
-    tk.Label(frame_input, text="Tanggal(DD-MM-YYYY):").grid(row=5, column=0, padx=5, pady=5)
+    tk.Label(frame_input, text="Waktu Mulai:").grid(row=4, column=0, padx=5, pady=5)
+    spinbox_jam_mulai = tk.Spinbox(frame_input, from_=0, to=23, width=3, format="%02.0f")
+    spinbox_jam_mulai.grid(row=4, column=1, padx=5, pady=5)
+    spinbox_menit_mulai = tk.Spinbox(frame_input, from_=0, to=59, width=3, format="%02.0f")
+    spinbox_menit_mulai.grid(row=4, column=2, padx=5, pady=5)
+
+    tk.Label(frame_input, text="Waktu Selesai:").grid(row=5, column=0, padx=5, pady=5)
+    spinbox_jam_selesai = tk.Spinbox(frame_input, from_=0, to=23, width=3, format="%02.0f")
+    spinbox_jam_selesai.grid(row=5, column=1, padx=5, pady=5)
+    spinbox_menit_selesai = tk.Spinbox(frame_input, from_=0, to=59, width=3, format="%02.0f")
+    spinbox_menit_selesai.grid(row=5, column=2, padx=5, pady=5)
+
+    tk.Label(frame_input, text="Tanggal:").grid(row=6, column=0, padx=5, pady=5)
     entry_tanggal = tk.Entry(frame_input)
-    entry_tanggal.grid(row=5, column=1, padx=5, pady=5)
+    entry_tanggal.grid(row=6, column=1, padx=5, pady=5)
+
+    tk.Button(frame_input, text="Pilih Tanggal", command=pilih_tanggal).grid(row=6, column=2, padx=5, pady=5)
 
     tk.Button(root, text="Simpan", command=simpan_jadwal).pack(pady=5)
     tk.Button(root, text="Kembali", command=back_to_menu).pack(pady=5)
