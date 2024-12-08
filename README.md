@@ -29,34 +29,20 @@ Sistem Penjadwalan Kelas adalah program yang dirancang untuk membantu  dalam men
 
 ## Fungsi Utama dan Cara Kerjanya:
 - Inisialisasi GUI:
-  root = tk.Tk()
-  root.title("Sistem Penjadwalan Kelas")
-  root.geometry("600x400")
   bagian ini untuk membuat jendela utama (root) dari aplikasi dan memberikan judul 
   serta ukuran windows (600x400 piksel).
 - Event Binding untuk Resize:
-  root.bind('<configure>', lambda event: resize_image(event, bg_image_original))
   event ini menangani perubahan ukuran windows. ketika ukuran berubah, fungsi 
   resize_image() akan dipanggil untuk menyesuaikan ukuran gambar background agar 
   tetap sesuai dengan ukutan windows aplikasi.
 - Memuat Gambar Background:
-  bg_image_originial = Image.open("bg.png")
   gambar bg.png dimuat sebagai gambar background yang nantinya akan di tampilkan.
 - Memulai Aplikasi
-  root.mainloop()
   fungsinya adalah loop utama untuk menjaga agar aplikasi GUI tetap berjalan dan 
   menunggu interaksi selanjutnya
 - Fungsi back_to_menu()
-  def back_to_menu():
-    main_menu(root, bg_image_original, lambda: tampilkan_kelas(root, bg_image_original, back_to_menu),
-              lambda: tampilkan_jadwal_kelas(root, bg_image_original, back_to_menu), 
-              lambda: tambah_kelas(root, bg_image_original, back_to_menu, add_background_to_window),
-              lambda: tambah_jadwal_kelas(root, bg_image_original, back_to_menu, add_background_to_window),
-              keluar_aplikasi)
 hal ini digunakan untuk kembali ke menu utama. ketika dipanggil, fungsi ini akan memanggil main_menu dengan beberapa parameter fungsi lambda yang memungkinkan untuk berpindah antara tampilan kelas, jadwal, menambah kelas, dan menambah jadwal.
 - fungsi keluar_aplikasi()
-  def keluar_aplikasi():
-      root.destroy()
   fungsi ini digunakan untuk keluar dari aplikasi
 
 ## Cara Menjalankan Program:
@@ -67,7 +53,7 @@ hal ini digunakan untuk kembali ke menu utama. ketika dipanggil, fungsi ini akan
      dipanggil di dalam kode utama
 2. instalasi Dependencies:
    - harus mengintsal pustakal tkinter dam pillow
-3. Jalankan Program melalui terminal
+3. Jalankan Program melalui file program_utama.py
 
 ## Program Bekerja:
 - program ini berkerja berdasarkan antarmuka grafis yang menggunakan tkinter sebagai library utama
