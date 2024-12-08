@@ -27,7 +27,7 @@ Sistem Penjadwalan Kelas adalah program yang dirancang untuk membantu  dalam men
 - PIL (Pillow) : Library untuk memproses gambar. Disini digunakan untuk memanipulasi gambar background (bg.png)
 - menu_utama, tampilkan_kelas, tampilkan_jadwal, tambah_kelas, tambah_jadwal : Merupakan modul-modul eksternal yang sudah dibuat yang menyediakan berbagai fungsi terkait tampilan dan pengelolaan data penjadwalan kelas
 
-## Fungsi Utama dan Cara Kerjanya:
+## Fungsi Utama:
 - Inisialisasi GUI:
   bagian ini untuk membuat jendela utama (root) dari aplikasi dan memberikan judul 
   serta ukuran windows (600x400 piksel).
